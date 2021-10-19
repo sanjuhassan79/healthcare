@@ -121,8 +121,8 @@ const Specialists = () => {
   
   <Row className="my-5">
     <Col sm> <Image src="https://www.portotheme.com/wordpress/medin/demo3/wp-content/uploads/2019/01/doctor-page-portfolio-1.jpg" rounded /></Col>
-    <Col sm className="dental_item"><Image src="https://www.portotheme.com/wordpress/medin/demo3/wp-content/uploads/2019/01/doctor-page-portfolio-1.jpg" rounded /></Col>
-    <Col sm><Image src="https://www.portotheme.com/wordpress/medin/demo3/wp-content/uploads/2019/01/doctor-page-portfolio-1.jpg" rounded /></Col>
+    <Col sm className="dental_item"><Image src="https://www.portotheme.com/wordpress/medin/demo3/wp-content/uploads/2019/01/doctor-page-portfolio-2.jpg" rounded /></Col>
+    <Col sm><Image src="https://www.portotheme.com/wordpress/medin/demo3/wp-content/uploads/2019/01/doctor-page-portfolio-3.jpg" rounded /></Col>
   </Row>
 </Container>
         </div>

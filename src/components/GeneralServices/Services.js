@@ -1,6 +1,7 @@
 import React from 'react';
 import { Card, Col,Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import './Services.css'
 
 const Services = (props) => {
 
@@ -8,7 +9,7 @@ const Services = (props) => {
 
     return (
         <div>
-             <Col>
+             <Col className="shadowss">
       <Card style={{height:"450px"}}>
         <Card.Img style={{height:"230px"}}variant="top" src={image} />
         <Card.Body>
