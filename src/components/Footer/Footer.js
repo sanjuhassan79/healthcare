@@ -13,7 +13,7 @@ const Footer = () => {
     <Col sm>
 
         <div className="">
-            <Link to="/"><Navbar.Brand href="#home"><img src={logo} alt="logo" /></Navbar.Brand></Link> <br /><br /><br />
+            <Link to="/home"><Navbar.Brand href="#home"><img src={logo} alt="logo" /></Navbar.Brand></Link> <br /><br /><br />
 
             <p className="fw-light text-muted my-3">To receive email releases, simply provide us<br />
                 with your email address below.</p>
@@ -80,7 +80,7 @@ const Footer = () => {
     <Col sm>
 
        
-    <div className="">
+    <div>
     <h2 className="pb-3">Our Contacts</h2>
     <div className="footer__post">
         <div className="footer-img">

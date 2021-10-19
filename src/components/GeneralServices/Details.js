@@ -2,7 +2,7 @@ import React from 'react';
 import { useEffect,useState } from 'react';
 import { Col, Container, Image, Row } from 'react-bootstrap';
 import { useParams } from 'react-router-dom';
-// import useGeneralServices from '../../foodhooks/hooks/General';
+ import Appointments from '../Appointments/Appointments.js';
 import './Details.css'
 
 const Details = () => {
@@ -20,12 +20,12 @@ const Details = () => {
 console.log(Services);
 
     return (
-        <div className="my-5  ">
+        <div>
            
-            <Container className="shadow my-5 p-5">
+            <Container className="shadow mytom p-5 mb-5">
   <Row>
   <Col sm={6}>
-        <div className="clinic__img ">
+        <div className="clinic__img">
         <Image src={Services?.image} thumbnail   />
         </div>
     </Col>
@@ -45,8 +45,10 @@ console.log(Services);
   </Row>
  
 </Container>
-            
+            <Appointments></Appointments>
         </div>
+
+        
     );
 };
 

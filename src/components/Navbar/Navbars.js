@@ -9,7 +9,7 @@ const Navbars = () => {
   return (
    
     <div>
-    <Navbar sticky="top" collapseOnSelect expand="lg" className="top-nav py-3">
+    <Navbar fixed="top" collapseOnSelect expand="lg" className="top-nav py-3">
       <div className="container">
       <Navbar.Brand href="#home"><img src={logo} alt="logo" /></Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />

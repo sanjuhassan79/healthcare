@@ -63,12 +63,13 @@ const [password,setpassword]=useState('')
     }
     const handleRegister=e=>{
         e.preventDefault()
+        setisLoading(true)
        if(password.length<6){
         seterror('Plassword Must be at least 6 characters long')
        }
-        
+       
         createUserWithEmailAndPassword(auth, Email, password)
-        setisLoading(true)
+        
         .then((userCredential) => {
              
             setuser(userCredential.user);
@@ -85,8 +86,9 @@ const [password,setpassword]=useState('')
 
 const signInWithEmailAndPass=(e)=>{
   e.preventDefault()
-  signInWithEmailAndPassword(auth, Email, password)
   setisLoading(true)
+  signInWithEmailAndPassword(auth, Email, password)
+ 
   .then((userCredential) => {
              
     setuser(userCredential.user);

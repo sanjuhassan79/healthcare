@@ -1,5 +1,7 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+import Emergency from '../Emergency/Emergency';
 import './Contacts.css'
 const Contacts = () => {
     return (
@@ -13,12 +15,46 @@ const Contacts = () => {
   
   <Row>
   <Col sm>
-  <div className="clinic__text">
+  <div className="">
             <h4>25 Years of Medical Excellence</h4>
-            <h2>Welcome to <span className="title-color-sub">Our Clinic</span></h2>
-            <p>We help your body restore itself by harnessing your own healing potential with a variety of techniques to combat areas of disease, injury or inflammation. This process involves a variety of techniques including a minimally invasive procedure conducted right in our clinic.</p>
-            <p>We are a team of medical researchers and practitioners who work hard to provide effective treatments in our point-of-care facilities.</p>
+            <h2>Welcome to <span className="title-color-sub">Our Contacts</span></h2>
+            
+            <div>
+   
+            <div>
+    
+    <div className="footer__post my-4 MyContact shadow ">
+        <div className="footer-img">
+        <Link to="/"><i className="fas fa-map-marker-alt footer-icon mx-2"></i></Link>
+        </div>
+        <div>
+       
+        <p className="fw-light text-dark">1560 Holden Street San Diego, CA 92139</p>
+        </div>
+    </div>
+    <div className="footer__post my-4 MyContact shadow ">
+        <div className="footer-img">
+        <Link to="/"><i className="fas fa-phone footer-icon mx-2"></i></Link>
+        </div>
+        <div>
+       
+        <p className="fw-light text-dark">1-800-267-0000, 1-800-267-0001</p>
+        </div>
+    </div>
+    <div className="footer__post my-4 MyContact shadow">
+        <div className="footer-img">
+        <Link to="/"><i className="fas fa-envelope footer-icon mx-2"></i></Link>
+        </div>
+        <div>
+       
+        <p className="fw-light text-dark">sanjuhassan560@gmail.com</p>
+        </div>
+    </div>
 
+</div>
+
+
+            </div>
             
 
         </div>
@@ -84,6 +120,11 @@ const Contacts = () => {
 </Container>
 
             </div>
+
+            <h2 className="text-center">7/24 hours <span className="title-color-sub">Our Services</span></h2>
+            
+
+            <Emergency></Emergency>
 
 
         </div>

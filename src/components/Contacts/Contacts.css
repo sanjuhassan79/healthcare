@@ -12,3 +12,9 @@
     padding: 33px;
     border-radius: 21px;
 }
+
+.MyContact{
+    background: radial-gradient(#cd7c7c, transparent);
+    color: yellow;
+    padding: 16px;
+}
