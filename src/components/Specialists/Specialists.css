@@ -1,0 +1,35 @@
+.Specialists {
+    margin: 5rem 0;
+}
+.Specialists__name {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Specialists__title {
+    font-size: 32px;
+    line-height: 1em;
+    margin-bottom: 18px;
+}
+.Specialists__subtitle {
+    color: #f49c00;
+    font-size: 16px;
+    line-height: 1em;
+    
+}
+
+@media screen and (max-width: 640px) {
+	.Specialists__name {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .text h2 {
+        
+        font-size: 40px;
+    }
+    .dental_item {
+        margin: 52px 0 !important;
+    }
+}

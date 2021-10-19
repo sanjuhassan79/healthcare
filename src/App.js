@@ -15,6 +15,7 @@ import Details from "./components/GeneralServices/Details";
 import NotFounds from "./components/NotFounds/NotFounds";
 import PrivateRoute from "./components/LoginFrom/PrivateRoute/PrivateRoute";
 import Contacts from "./components/Contacts/Contacts";
+import Specialists from "./components/Specialists/Specialists";
 
 
 
@@ -35,12 +36,15 @@ function App() {
           <Route exct path="/Home">
              <Home /> 
           </Route>
+          <PrivateRoute path="/Specialists">
+             <Specialists /> 
+          </PrivateRoute>
           <PrivateRoute  path="/Details/:DetailsId">
              <Details></Details>
           </PrivateRoute>
-          <PrivateRoute path="/Contacts">
+          <Route path="/Contacts">
              <Contacts /> 
-          </PrivateRoute>
+          </Route>
           <Route path="/Login">
              <Login /> 
           </Route>

@@ -10,7 +10,7 @@ const GeneralServices = () => {
     return (
         <div>
             <Container className="my-5 text-center">
-            <h2 className="services__title">General <span className="title-color-sub">Services</span> </h2>
+            <h2 className="services__title my-5">General <span className="title-color-sub">Services</span> </h2>
             <Row xs={1} md={3} className="g-4">
 
                 {

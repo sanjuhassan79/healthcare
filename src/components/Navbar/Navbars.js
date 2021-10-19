@@ -9,7 +9,7 @@ const Navbars = () => {
   return (
    
     <div>
-    <Navbar fixed="top" collapseOnSelect expand="lg" className="top-nav py-3">
+    <Navbar sticky="top" collapseOnSelect expand="lg" className="top-nav py-3">
       <div className="container">
       <Navbar.Brand href="#home"><img src={logo} alt="logo" /></Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -18,10 +18,10 @@ const Navbars = () => {
 
           <Link className="navLink" to="/">Home</Link>
           <Link className="navLink" to="/contacts">Contacts</Link>
-          <Link className="navLink" to="/">Home</Link>
+          <Link className="navLink" to="/Specialists">Specialists</Link>
           {user.email?
           <div>
-            <span>{user.displayName}</span>
+            <span>{user?.email.slice(0,10)}</span>
             <Link onClick={logOut} className="navLink" to="/"><span className="sinItem">Log out</span></Link>
             
           </div>

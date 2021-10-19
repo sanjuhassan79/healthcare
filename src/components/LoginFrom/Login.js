@@ -43,6 +43,7 @@ const Login = () => {
 
 								<input type="submit" value="Submit" className="btn Buttoitemn"/>
                                 <button onClick={signInUsingGoogle} type="button" className="btn btn-outline-warning"><i class="fab fa-google"></i> Google</button>
+							
 							</div>
 						</form>
 					</div>

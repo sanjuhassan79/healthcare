@@ -17,7 +17,7 @@ const Footer = () => {
 
             <p className="fw-light text-muted my-3">To receive email releases, simply provide us<br />
                 with your email address below.</p>
-                <Form className="d-flex w-75 text-center my-2">
+                <Form className="d-flex text-center w-75 my-2 px-0">
                 <FormControl
                 type="search"
                 placeholder="Search"
