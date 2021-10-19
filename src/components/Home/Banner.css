@@ -1,0 +1,25 @@
+.slider {
+    color: black;
+    top: '50%'
+}
+h3.home-sub-title {
+    font-weight: 600;
+    font-size: 47px;
+    color: #444444;
+    text-transform: uppercase;
+}
+h1.home-main-title {
+    font-weight: 700;
+    font-size: 47px;
+    color: #b39191;
+    text-transform: uppercase;
+
+}
+p.home-para {
+    margin: 22px 0;
+    color: #444444;
+}
+.home-button{
+    color: black;
+    border: 1px solid black;
+}

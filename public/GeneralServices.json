@@ -1,0 +1,41 @@
+[
+    {
+      "id": 1,
+      "title": "Urgent Care",
+      "description": "You don`t need an appointment to get treated at our urgent care center",
+     "image": "https://3218xo2pz8wo2bdh1822x65x-wpengine.netdna-ssl.com/wp-content/uploads/2020/02/huntsville_-_on_bob_wallace_ave._with_central_park_sign-1024x647.jpg"
+     
+    },
+    {
+      "id": 2,
+      "title": "General Surgery",
+      "description": "The general surgical team encompasses a full range of emergency and elective inpatient and day case surgery",
+      "image": "https://www.boshospitals.com/uploads/pages/general-surgery.jpg"
+      
+    },
+    {
+      "id": 3,
+      "title": "Pediatric Care",
+      "description": "We provide a long list of pediatric services to care for your child from infancy into adulthood",
+      "image": "https://ernearmetx.com/wp-content/uploads/2020/11/highest-quality-pediatric-care-at-er-near-me-300x232.png"
+    },
+    {
+      "id": 4,
+      "title": "Family Medicine",
+      "description": "Family Medicine is committed to providing personalized, lifelong care for your entire family",
+       "image": "https://mybethanymedical.com/wp-content/uploads/2021/04/familycare.png"
+    },
+    {
+      "id": 5,
+      "title": "Women’s Health",
+      "description": "These services offers routine health checkups and treatment for specialty conditions",
+      "image": "https://www.topnursing.org/wp-content/uploads/2019/09/bigstock-Gynecology-consultation-Pregn-177857368-300x200.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Immunizations",
+      "description": "This service can provide you with many of the common vaccines including those required for immunization records",
+      "image": "https://www.nchealthinfo.org/wp-content/uploads/2019/08/Immunization.jpg"
+    }
+  ]
+  

@@ -1,0 +1,30 @@
+
+
+.footer{
+    padding: 23px 0;
+}
+.footer__post {
+    display: flex;
+    justify-content: start;
+}
+.footer-img>img {
+    margin-right: 21px;
+}
+.footer-button {
+    background: #f49c00;
+    border: navajowhite;
+    border-radius: 5px;
+    padding: 0 15px;
+}
+.icon {
+    margin: 10px 0;
+}
+.footer-icon {
+    background: #fcf9f9;
+    padding: 10px;
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    transition: all .3s;
+    color: #f49c00;
+}

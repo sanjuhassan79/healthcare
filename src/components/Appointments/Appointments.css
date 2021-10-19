@@ -1,0 +1,12 @@
+.appointments {
+    background-image: url(https://www.portotheme.com/wordpress/medin/demo3/wp-content/themes/medin/images/clinic/banner-center-02.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}

@@ -1,0 +1,33 @@
+.clinic-bd {
+    background-color: rgb(241, 237, 237);
+    padding: 97px 0;
+}
+.clinic__img img {
+    width: 100%;
+    height: 427px;
+    margin-bottom: 51px;
+}
+.clinic__text h4 {
+    font-size: 17px;
+    line-height: 1.2em;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #494949;
+}
+.clinic__text h2 {
+    line-height: 1em;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 45px;
+}
+.clinic__text p {
+    font-size: 16px;
+    line-height: 27px;
+    font-weight: 400;
+    margin: 35px 0;
+    
+}
+
+.title-color-sub{
+    color: #f49c00;
+}

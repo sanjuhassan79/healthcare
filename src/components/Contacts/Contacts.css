@@ -1,0 +1,14 @@
+.contacts__map {
+    background-image: url('https://miro.medium.com/max/1400/1*czJpdho-alDDapGYNfweBw.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+}
+.contact-form {
+    background-color: #eedfdf;
+    padding: 33px;
+    border-radius: 21px;
+}
