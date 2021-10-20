@@ -4,7 +4,7 @@ import './Appointments.css'
 const Appointments = () => {
     return (
         <div className="appointments">
-           <div className="clinic__text cltext">
+           <div className="clinic__text">
             
             <h2>Online<span className="title-color-sub">Appointments </span>And Prescriptions</h2>
             

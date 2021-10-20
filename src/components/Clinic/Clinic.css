@@ -31,3 +31,26 @@
 .title-color-sub{
     color: #f49c00;
 }
+
+@media screen and (max-width: 600px) {
+	.clinic__text h2 {
+       
+        font-size: 31px;
+        padding: 15px 20px;
+    }
+    .clinic__text h4 {
+        padding: 0px 20px;
+        
+    }
+}
+@media screen and (max-width: 280px) {
+	.clinic__text h2 {
+       
+        font-size: 24px;
+        padding: 15px 20px;
+    }
+    .clinic__text h4 {
+        padding: 0px 20px;
+        
+    }
+}

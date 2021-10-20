@@ -11,9 +11,3 @@
     color: white;
 }
 
-@media screen and (max-width: 640px) {
-	.cltext h2 {
-        
-        font-size: 35px;
-    }
-}
